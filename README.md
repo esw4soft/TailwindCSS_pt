@@ -139,5 +139,17 @@ module.exports = {
 }
 ```
 
+### 自訂utilities
+```css
+@layer utilities {
+  .filter-none {
+    filter: none;
+  }
+  .filter-grayscale {
+    filter: grayscale(100%);
+  }
+}
+```
+
 ## TailwindCSS 加入 React
 `https://tailwindcss.com/docs/guides/create-react-app`
