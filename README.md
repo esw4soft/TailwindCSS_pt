@@ -151,5 +151,16 @@ module.exports = {
 }
 ```
 
+### plugin
+`https://github.com/aniftyco/awesome-tailwindcss`
+
+### functionCSS 介紹
+`https://tailwindcss.com/docs/functions-and-directives`
+
+### 增加CSS可讀性
+因為都把樣式寫到class 所以class會變非常多, 雖然沒辦法減少class 但是可以增加可讀性:
+  1. 按照順序寫 語意,容器(格線系統),元件 >> theme樣式  >> utils(微調樣式)
+  2. OOCSS 容器與內容分離
+
 ## TailwindCSS 加入 React
 `https://tailwindcss.com/docs/guides/create-react-app`
